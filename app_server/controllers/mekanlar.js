@@ -1,22 +1,23 @@
 var express = require('express');
 var router = express.Router();
 
-const anaSayfa=function(req, res, next) {
-    res.render('anasayfa', { title: 'Anasayfa' });
-};
+const anaSayfa = function (req, res,) {
+  res.render('anasayfa', { 'title': 'Ana sayfa' });
+}
 
-const mekanBilgisi=function(req, res) {
-    res.render('mekanbilgisi', { title: 'Mekan bilgisi' });
-};
+const mekanBilgisi = function (req, res,) {
+  res.render('mekanbilgisi', { 'title': 'Mekan bilgisi' });
+}
 
-const yorumEkle=function(req, res) {
-    res.render('yorumekle', { title: 'Yorum ekle' });
-};
+const yorumEkle = function (req, res,) {
+  res.render('yorumekle', { 'title': 'Yorum ekle' });
+}
 
 
+module.exports = {
 
-module.exports={
-    anaSayfa,
-    mekanBilgisi,
-    yorumEkle
+  anaSayfa,
+  mekanBilgisi,
+  yorumEkle,
+
 }
