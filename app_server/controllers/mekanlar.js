@@ -65,12 +65,6 @@ const mekanBilgisi = function (req, res, next) {
         "tarih":"21 Ekim 2022",
         "puan":"5"
       },
-      {
-        "yorumYapan":"Dilara Erdoğan",
-        "yorumMetni":"Kahveleri Beğenmedim",
-        "tarih":"21 Ekim 2022",
-        "puan":"1"
-      }
     ]
   } 
 });
